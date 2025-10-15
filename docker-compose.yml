@@ -1,0 +1,15 @@
+version: '3.8'
+services:
+  backend:
+    build: ./fullstack-backend
+    ports:
+      - "9091:9091"
+    environment:
+      SPRING_DATASOURCE_URL: jdbc:mysql://host.docker.internal:3306/fullstack
+      SPRING_DATASOURCE_USERNAME: root
+      SPRING_DATASOURCE_PASSWORD: prashanth
+
+  frontend:
+    build: ./fullstack-frontend
+    ports:
+      - "80:80"
