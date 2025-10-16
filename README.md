@@ -63,10 +63,6 @@ Contributions are welcome! Please fork the repository and submit pull requests f
 License
 This project is licensed under the MIT License.
 
-yaml
-Copy code
-
----
 
 ## **Step 3: Stage, commit, and push README**
 
