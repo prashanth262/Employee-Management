@@ -19,53 +19,54 @@ This project consists of:
 ---
 
 ## Technologies Used
-- **Backend:** Java, Spring Boot, Hibernate, MySQL  
-- **Frontend:** React.js, HTML, CSS, JavaScript  
-- **Version Control:** Git & GitHub  
+- **Backend:** Java, Spring Boot, Hibernate, MySQL
+- **Frontend:** React.js, HTML, CSS, JavaScript
+- **Version Control:** Git & GitHub
 
 ---
 
 ## Project Structure
+
 ```bash
 Employee-Management/
 ├── fullstack-backend/      # Spring Boot backend
 ├── fullstack-frontend/     # React frontend
 └── README.md               # Project documentation
-Setup Instructions
-Backend
-Navigate to fullstack-backend folder.
 
-Configure MySQL database in application.properties.
+```
+---
 
-Run the Spring Boot application:
+## Setup Instructions
 
-bash
-Copy code
-mvn spring-boot:run
+### Backend
+1. Navigate to `fullstack-backend` folder.
+2. Configure MySQL database in `application.properties`.
+3. Run the Spring Boot application:
+   ```bash
+   mvn spring-boot:run
 Frontend
 Navigate to fullstack-frontend folder.
 
 Install dependencies:
-
-bash
-Copy code
+   ```bash
 npm install
+   ```
 Start the frontend:
 
-bash
-Copy code
+```
 npm start
+
+```
 Contribution
 Contributions are welcome! Please fork the repository and submit pull requests for improvements or bug fixes.
 
 License
 This project is licensed under the MIT License.
 
-Step 3: Stage, Commit, and Push README
-powershell
-Copy code
+
+## **Step 3: Stage, commit, and push README**
+
+```powershell
 git add README.md
 git commit -m "Add professional README for Employee Management System"
 git push -u origin main
-yaml
-Copy code
