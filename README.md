@@ -27,9 +27,9 @@ This project consists of:
 
 ## Project Structure
 Employee-Management/
-├── fullstack-backend/ # Spring Boot backend
-├── fullstack-frontend/ # React frontend
-└── README.md # Project documentation
+├──  fullstack-backend/ # Spring Boot backend
+├──  fullstack-frontend/ # React frontend
+└──  README.md # Project documentation
 
 yaml
 Copy code
